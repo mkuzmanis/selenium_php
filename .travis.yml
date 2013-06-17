@@ -6,7 +6,7 @@ php:
 env:
   global:
   - secure: "eG/9gTA9uK5g5r2sCsvRheKMlJcDhdBNjqVi/xnvAHFaFWl/wsbO7ZCQkiCO\n2PZ0EvQi1FglumvEAfiQOaR/zygSAbgsqnekdSY/JGulWwBCApHrjzzR/KH9\nKF/89YyZfkcxRoZSyYFMg01ELuymNV9gfCMFzpI94Q/eV+STusg="
-  - secure: "BzHrWDBL1pFDN+H15kSHEXVLp88Qqa1bBbAjyJMYlsTJG3OIHAJG9Etfo3Do\nlXTnO0ZGg3GtO2USUbliAyEOFiEgKfIXzFuyu/DzoxXkG2oSiMBKqu+OWE66\nMqOyPbq6sCfqNgb3FoopiRBohuEaGm0vX2ufWfVLDohpchxMLGo="
+  - secure: "WSAGTnjjqafUGJEnrd2UqV+EEXzgdV1DqLLdD4CisvnMNXsI0IAw6RaY6jz0\nJTJ6mouDhdfN1pT+JT8KmM28VbzdQjSbBEqGHmCnGJ7Rp128IEY/PMz7O8hm\nfXUetf+POvPkhWmRETrrtbdwyQL3MxNDG4792y7SK482RZnYt9M="
 
 install:
   - sudo add-apt-repository ppa:nginx/stable -y

@@ -1,0 +1,28 @@
+{
+  "name": "mkuzmanis/selenium_php",
+  "authors": [
+    {
+      "name": "Martins Kuzmanis",
+      "email": "martins.kuzmanis@accenture.com"
+    }
+  ],
+  "minimum-stability": "dev",
+  "require": {
+    "php": ">=5.3.3"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "3.7.*",
+    "phploc/phploc": "*",
+    "squizlabs/php_codesniffer": "dev-master",
+    "sebastian/phpcpd": "*",
+    "pdepend/pdepend": "1.1.0",
+    "phpmd/phpmd": "1.4.*",
+    "mayflower/php-codebrowser": "1.0.*@dev",
+    "sauce/sausage": ">=0.4.0"
+  },
+  "autoload": {
+    "psr-0": {
+      "phptravis": "lib/"
+    }
+  }
+}

@@ -6,9 +6,9 @@ php:
 env:
   global:
   - secure: |-
-      JnQnb82fzYI3WgD3hh2hB/VSaa1gJxgicDqtpy/nPtfntejlcX9SuEqTgi8f\nzH+xCbFIr+qUFXaMzAum8TsVbzhnOr8jZQookxcUuBumUBEuibc9TMy+XAZq\nxlwLVxvsjwr82L73Tl+mEYHEDx/JrlJcSgNWhbk1xLnR+e/4mCQ=
+      SibVdlaISM5oE4/JHrWZNu0xJQ/YoHXKx9jDzI+0sSR9l7JDFeGz7E9ZJhuE\nEXHg4ovKLtV/eDxBXBYucrmI8+Fbo0E2ojbxYnY10ISjY96IY0uq9VS6BCyW\nNNhcD8OPsCa1F2YJ+8Bt6x62w97auqRqSvJY5iRY0wdmrQKIBzY=
   - secure: |-
-      MZini+rNGJ2vXyKZuoLth03YAXNm275Ehjc2wfSVYpzm1uRTYmu1kfga1OvB\nvPf+a1lDDgivgb+w4Kp8j4ZM0oC1yGhQpluJs1W7ZUdmAV3bIK74v7vKQZ8A\nNxmxNUWMONZ6BHzUSDHhTWwBh13/616U3G7jNIvS8+rc2W962YA=
+      ejBxQBLocnYOpH+bYr44m6gckI44HOdPs5cJp0czojVWeqses+TJYuG/EEtJ\nHNXsXDkvfwwSga6SiPuWrDqa68AaVkmZO4qvrwgBqbDnX3Qga71wTwNdr20C\n08AI06lOeKbOKeDBh86WrGQXwTFSpdXZdD5vAOm9R6qkNIF+3ts=
 
 install:
   - sudo add-apt-repository ppa:nginx/stable -y

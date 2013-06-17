@@ -1,0 +1,28 @@
+language: php
+
+php:
+- 5.4
+
+env:
+  global:
+  - secure: |-
+      JnQnb82fzYI3WgD3hh2hB/VSaa1gJxgicDqtpy/nPtfntejlcX9SuEqTgi8f\nzH+xCbFIr+qUFXaMzAum8TsVbzhnOr8jZQookxcUuBumUBEuibc9TMy+XAZq\nxlwLVxvsjwr82L73Tl+mEYHEDx/JrlJcSgNWhbk1xLnR+e/4mCQ=
+  - secure: |-
+      MZini+rNGJ2vXyKZuoLth03YAXNm275Ehjc2wfSVYpzm1uRTYmu1kfga1OvB\nvPf+a1lDDgivgb+w4Kp8j4ZM0oC1yGhQpluJs1W7ZUdmAV3bIK74v7vKQZ8A\nNxmxNUWMONZ6BHzUSDHhTWwBh13/616U3G7jNIvS8+rc2W962YA=
+
+install:
+  - sudo add-apt-repository ppa:nginx/stable -y
+  - sudo apt-get update
+  - sudo apt-get install nginx
+
+before_script:
+- chmod +x ./build/before_script.sh
+- chmod +x ./build/sauce_connect_setup.sh
+- sh -c ./build/before_script.sh
+- sh -c ./build/sauce_connect_setup.sh
+
+script:
+- sh -c ./build/script.sh
+
+notifications:
+  email: false

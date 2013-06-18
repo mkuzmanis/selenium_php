@@ -21,13 +21,13 @@ class MySauceTest extends \Sauce\Sausage\WebDriverTestCase
 
     public function testTitle()
     {
-        $this->open('http://laacz.lv');
+        $this->url('http://laacz.lv');
         $this->assertContains("laacz.lv", $this->title());
     }
     
     public function testArchive()
     {
-$this->open('http://laacz.lv');
+$this->url('http://laacz.lv');
 $link->byId('archive');
 $link->click();
 $this->assertContains("Archivs (laacz.lv)", $this->title());

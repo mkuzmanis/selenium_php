@@ -28,7 +28,7 @@ class MySauceTest extends \Sauce\Sausage\WebDriverTestCase
     public function testArchive()
     {
 $this->url('http://laacz.lv');
-$link->byId('archive');
+$link=$this->byId('archive');
 $link->click();
 $this->assertContains("Archivs (laacz.lv)", $this->title());
 

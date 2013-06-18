@@ -16,12 +16,12 @@ class MySauceTest extends \Sauce\Sausage\WebDriverTestCase
     public function setUp()
     {
         parent::setUp();
-        $this->setBrowserUrl('http://localhost');
+        $this->setBrowserUrl('http://laacz.lv');
     }
 
     public function testTitle()
     {
-        $this->url('http://localhost');
-        $this->assertContains("Welcome to nginx!", $this->title());
+        $this->url('http://laacz.lv');
+        $this->assertContains("laacz.lv", $this->title());
     }
 }
